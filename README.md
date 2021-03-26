@@ -74,6 +74,10 @@ test_yuk.py .F.F                                                 [100%]
 
 This plugin was inspired by these other fine plugins: 
 
-* [pytest-emoji](https://pypi.org/project/pytest-emoji).
-* [pytest-poo](https://pypi.org/project/pytest-poo).
+* [pytest-emoji](https://pypi.org/project/pytest-emoji)
+* [pytest-poo](https://pypi.org/project/pytest-poo)
 
+## Other pytest plugins from [okken](https://github.com/okken):
+
+* [pytest-check](https://pypi.org/project/pytest-check/):  Allows multiple failures per test.
+* [pytest-srcpaths](https://pypi.org/project/pytest-srcpaths/): A plugin to help pytest find the code you want to test, by adding specified paths to `sys.path`.
