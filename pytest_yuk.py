@@ -1,11 +1,11 @@
 """
-Display tests you are uneasy with.
+Display tests you are uneasy with, using 🤢/🤮 for pass/fail of tests marked with yuk.
 Action only takes place if `--yuk` is passeed.
 Test marked with @pytest.mark.yuk
   * will display 🤢 if passing.
   * will display 🤮 if failing.
 """
-__version__ = '0.0.1'
+__version__ = '0.0.1.post2'
 
 def pytest_report_teststatus(report, config):
     if not config.option.yuk:
